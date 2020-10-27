@@ -1,0 +1,129 @@
+@media (max-width: 940px){
+  .item {
+    width: 260px;
+  }
+  .works__inner {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .works__inner-box{
+    margin-bottom: 15px;
+  }
+  .works__title {
+    margin-top: -20px;
+  }
+  .works__inner-item{
+    width: 40%;
+  }
+  .works__inner-item a{
+    display: block;
+  }
+  .works__inner-item img{
+    width: 100%;
+  }
+}
+
+@media (max-width: 830px){
+  .footer__inner {
+    flex-wrap: wrap;
+  }
+  .footer__item-content {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 800px){
+  .header__menu-btn{
+    display: block;
+  }
+  .header__menu ul{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+  }
+  .header__menu li{
+    display: block;
+    text-align: center;
+  }
+  .header__menu li + li{
+    margin-left: 0;
+  }
+  .header__menu a{
+    display: block;
+    padding: 10px 0;
+  }
+  .slider__carousel-inner .slick-list.draggable .slick-track {
+    display: flex;
+    justify-content: space-between;
+  }
+  .items__inner {
+    display: block;
+    margin-top: -10px;
+  }
+  .item {
+    width: 100%;
+    margin: 20px auto;
+  }
+  .item__title{
+    min-height: 37px;
+  }
+  .item__btn{
+    left: 10px;
+    position: relative
+  }
+  .item__icons {
+    position: absolute;
+    left: 10px;
+    top: -10px;
+  }
+  .item__text {
+    margin-bottom: 13px;
+    margin-top: -24px;
+  }
+  .works__title {
+    margin-top: -30px;
+  }
+}
+
+@media (max-width: 601px){
+  .slider__carousel-inner{
+    display: none;
+  }
+}
+
+@media (max-width: 540px){
+  .footer__item-list {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .footer__items-title {
+    padding-bottom: 15px;
+  }
+  .works__inner-item{
+    width: 100%;
+  }
+}
+
+@media (max-width: 465px){
+.slider__item-content{
+  left: 0px;
+  }
+  .slider__item-content {
+    max-width: 100%;
+  }
+  .item__icons{
+    top: 0;
+  }
+}
+
+@media (min-width: 800px){
+  .header__menu ul {
+  display: flex !important;
+  }
+}
